@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.new_starting.MainActivity">
+
+    <ImageButton
+        android:id="@+id/female"
+        android:layout_width="123dp"
+        android:layout_height="135dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="160dp"
+        android:onClick="female"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/woman2" />
+
+    <ImageButton
+        android:id="@+id/male"
+        android:layout_width="131dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"
+        android:onClick="male"
+        android:scaleType="centerInside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/man2"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="278dp"
+        android:layout_height="31dp"
+        android:text=""
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="129dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        android:text="MALE"
+        android:textAlignment="center"
+        android:textColor="#c16328"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/male"
+        app:layout_constraintTop_toBottomOf="@+id/male" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="109dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="FEMALE"
+        android:textAlignment="center"
+        android:textColor="#c16328"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/female"
+        app:layout_constraintTop_toBottomOf="@+id/female" />
+</android.support.constraint.ConstraintLayout>

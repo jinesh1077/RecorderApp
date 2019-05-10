@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "51305484211",
+    "firebase_url": "https://imgfire-b91a9.firebaseio.com",
+    "project_id": "imgfire-b91a9",
+    "storage_bucket": "imgfire-b91a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51305484211:android:ba7d9bd7846274a2",
+        "android_client_info": {
+          "package_name": "com.jin10.imgfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51305484211-84c3es39o1v7s0icumnvfn5rekf83eh8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jin10.imgfire",
+            "certificate_hash": "b154b1b4c1f3f752664f246a8dfd41f69b0360a5"
+          }
+        },
+        {
+          "client_id": "51305484211-5c0vhhf8682rdqnfc5la31e8lur2n9i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD35sFFB3k1xnmWe4cSiALvXPzA2YBH2gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51305484211-5c0vhhf8682rdqnfc5la31e8lur2n9i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
