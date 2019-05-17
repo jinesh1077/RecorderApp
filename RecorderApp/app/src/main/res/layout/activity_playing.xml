@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="#FFFAFA"
+    tools:context=".playing">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:id="@+id/songName"
+        android:textSize="20sp"
+        android:text="recording"
+        android:gravity="center|left"
+
+        android:background="@android:color/transparent"
+        />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageButton
+            android:id="@+id/playBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ps"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            />
+
+
+        <ImageButton
+            android:id="@+id/restart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/rs"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>
