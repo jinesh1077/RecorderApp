@@ -119,14 +119,15 @@ public class RecordFragment extends Fragment {
         stopBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                recorder.stop();
-                pause=false;
-                playing=false;
-                rcdBtn.setImageResource(R.drawable.rcdimg);
-                Toast.makeText(getContext(), "Recorded", Toast.LENGTH_SHORT).show();
-                dbHandler.addData(save);
-                slot.setText("Recorder");
-
+                if(pause!=false||playing!=false) {
+                    recorder.stop();
+                    pause = false;
+                    playing = false;
+                    rcdBtn.setImageResource(R.drawable.rcdimg);
+                    Toast.makeText(getContext(), "Recorded", Toast.LENGTH_SHORT).show();
+                    dbHandler.addData(save);
+                    slot.setText("Recorder");
+                }
             }
         });
 
